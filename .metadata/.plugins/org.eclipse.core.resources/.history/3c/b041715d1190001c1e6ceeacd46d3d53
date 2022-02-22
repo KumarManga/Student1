@@ -1,0 +1,22 @@
+package com.restapi.feign;
+
+import java.util.Optional;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+import com.example.demo.Employee;
+
+@Component
+@FeignClient(name = "feign",url = "http://localhost:8080")
+public interface FeignClien {
+	
+	@GetMapping(path = "/feign", produces = "application/json")
+	public String get();
+	
+	@GetMapping(path = "/feign/{id}", produces = "application/json")
+	public Optional<Employee> getEmployeeById(@PathVariable int id);
+
+}

@@ -1,0 +1,14 @@
+package com.restapi.feign;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Component
+@FeignClient(path = "/feign",url = "http://localhost:8080")
+public interface FeignClien {
+	
+	@GetMapping(path = "/feign", produces = "application/json")
+	public String getString();
+
+}

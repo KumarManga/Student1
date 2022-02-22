@@ -1,0 +1,5 @@
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xmnls:tns="http://techprimers.com/spring-boot-soap-exampe"
+		   targetNameSpace="http://techprimers.com/spring-boot-soap-exampe"
+           		   elementForDefault="qulified">
+           

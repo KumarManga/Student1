@@ -1,0 +1,10 @@
+package com.restapi.feign;
+
+
+
+@org.springframework.cloud.openfeign.FeignClient(name = "feign", url = "http://localhost:8080")
+public interface FeignClient {
+	
+	
+
+}

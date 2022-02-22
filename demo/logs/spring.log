@@ -1,0 +1,37 @@
+2022-02-21 11:21:56.554  INFO 14620 --- [restartedMain] com.restapi.DemoApplication              : Starting DemoApplication using Java 15.0.2 on LAPTOP-Q4MH7GVP with PID 14620 (C:\Users\mkuma\OneDrive\Desktop\My_workspace\demo\target\classes started by Naga Venkat in C:\Users\mkuma\OneDrive\Desktop\My_workspace\demo)
+2022-02-21 11:21:56.561  INFO 14620 --- [restartedMain] com.restapi.DemoApplication              : No active profile set, falling back to default profiles: default
+2022-02-21 11:21:56.682  INFO 14620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-21 11:21:56.682  INFO 14620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-21 11:21:58.172  INFO 14620 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-21 11:21:58.248  INFO 14620 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interfaces.
+2022-02-21 11:21:58.609  INFO 14620 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cc54b8a3-77e3-36ac-9e3a-f4e7948244f8
+2022-02-21 11:21:58.802  INFO 14620 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-02-21 11:21:59.680  INFO 14620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2022 (http)
+2022-02-21 11:21:59.691  INFO 14620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-21 11:21:59.692  INFO 14620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-21 11:21:59.805  INFO 14620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-21 11:21:59.806  INFO 14620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3122 ms
+2022-02-21 11:21:59.838  INFO 14620 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-21 11:22:00.122  INFO 14620 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-21 11:22:00.141  INFO 14620 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-02-21 11:22:00.394  INFO 14620 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-21 11:22:00.470  INFO 14620 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-21 11:22:00.743  INFO 14620 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-21 11:22:00.918  INFO 14620 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-21 11:22:01.976  INFO 14620 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-21 11:22:01.990  INFO 14620 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-21 11:22:02.672  WARN 14620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-02-21 11:22:03.820  INFO 14620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2022 (http) with context path ''
+2022-02-21 11:22:03.957  INFO 14620 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-02-21 11:22:04.013  INFO 14620 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-02-21 11:22:04.034  INFO 14620 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-02-21 11:22:04.368  INFO 14620 --- [restartedMain] com.restapi.DemoApplication              : Started DemoApplication in 8.657 seconds (JVM running for 10.134)
+2022-02-21 11:22:44.597  INFO 14620 --- [http-nio-2022-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-21 11:22:44.597  INFO 14620 --- [http-nio-2022-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-21 11:22:44.600  INFO 14620 --- [http-nio-2022-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-02-21 11:22:44.780  INFO 14620 --- [http-nio-2022-exec-2] c.restapi.controller.StudentController   : Post mapping
+2022-02-21 11:55:59.670  INFO 14620 --- [RMI TCP Connection(36)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-02-21 11:55:59.740  INFO 14620 --- [RMI TCP Connection(36)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-21 11:55:59.986  WARN 14620 --- [RMI TCP Connection(36)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-02-21 11:55:59.988  INFO 14620 --- [RMI TCP Connection(36)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-21 11:55:59.997  INFO 14620 --- [RMI TCP Connection(36)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

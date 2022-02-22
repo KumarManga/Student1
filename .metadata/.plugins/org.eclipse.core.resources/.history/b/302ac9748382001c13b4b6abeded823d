@@ -1,0 +1,62 @@
+package com.restapi.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.restapi.dao.StudentRepo;
+import com.restapi.entities.Student;
+
+
+@Service
+public class StudentService {
+	
+	
+	@Autowired
+	private StudentRepo repo;
+	
+	public Student saveStudent(Student student) {
+		return repo.save(student);
+		}
+	
+	public List<Student> getAllStudent() {
+		return repo.findAll();
+	}
+	
+	public Student getStudentById(Long id) {
+		return repo.getById(id);
+	}
+	
+	public Student updateStudent(Student student, Long id) {
+		
+		Student studentUpdate = repo.getById(id);
+		student.setStudentId(studentUpdate.getStudentId());
+		return repo.save(student);
+		
+	}
+//		Optional<Student> studentDb = this.studentRepository.findById(id);
+//		if (studentDb.isPresent()) {
+//			Student studentUpdate = studentDb.get();
+//			student.setId(studentUpdate.getId());
+//			studentUpdate.setName(student.getName());
+//			studentUpdate.setTech(student.getTech());
+//			studentUpdate.setEmail(student.getEmail());
+//			studentUpdate.getStudentProfile().setPhoneNumber(student.getStudentProfile().getPhoneNumber());
+//			studentUpdate.getStudentProfile().setAddress(student.getStudentProfile().getAddress());
+//			studentUpdate.getStudentProfile().setGender(student.getStudentProfile().getGender());
+//			studentUpdate.getStudentProfile().setBirthOfDate(student.getStudentProfile().getBirthOfDate());
+//			studentUpdate.setCourse(student.getCourse());
+//			studentRepository.save(student);
+//			return studentUpdate;
+//		} else {
+//
+//			throw new StudentResourceNotFoundExc
+//		}
+	
+	public void deleteStudent(Long id) {
+		repo.deleteById(id); 
+	}
+
+}

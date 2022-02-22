@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;soap-1/src/main/resources/NewFile.xml&apos; to &apos;NewFile.xsd&apos;" description="Rename resource &apos;NewFile.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/NewFile.xml" name="NewFile.xsd" stamp="1645445720062" updateReferences="true"/>
+</session>

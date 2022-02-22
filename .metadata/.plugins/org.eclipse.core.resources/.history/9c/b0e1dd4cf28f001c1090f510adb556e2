@@ -1,0 +1,5 @@
+package com.restapi.feign;
+
+public interface FeignClient {
+
+}

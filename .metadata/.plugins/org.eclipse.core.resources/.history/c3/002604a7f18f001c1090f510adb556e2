@@ -1,0 +1,7 @@
+package com.restapi.feign;
+
+
+@FeignClient
+public class FeignController {
+
+}
